@@ -26,6 +26,10 @@
   height: 81px !important;
 }
 
+.logo.position-sticky.top-0.bg-white.py-3 {
+  padding-top: 14.5px !important;
+  padding-bottom: 14.5px !important;
+}
 
 /* Remove Map from Fixed Position in Dashboard */
 canvas {
@@ -46,32 +50,12 @@ div.custom-notify-user {
 /* Bootstrap Controls User Submit Button Responses */
 
 
-/* Post Page Card  */
-.card-group {
-  flex: 0 0 33.3333%;
-}
-/* Post Page Card  */
-
-
 /* Active NavLink */
 li.nav-item a.active, .active {
   font-weight: 600;
 }
 /* Active NavLink */
 
-
-/* Email verification */
-.a3s.aiL div {
-  display: flex;
-  width: 150px;
-  justify-content: center;
-  background: purple;
-  border-radius: 4px;
-}
-.a3s.aiL div p {
-  color: white;
-}
-/* Email verification */
 
 
 /* Hotel booking cards */

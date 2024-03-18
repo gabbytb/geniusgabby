@@ -123,7 +123,7 @@ const Dashboard = () => {
                                 {/* ASIDE NAV */}
                                 {/* ***************************************************************** */}  
                                 {/* Aside Logo */}
-                                <div className="logo py-4 px-5 d-flex justify-content-center w-100 position-sticky top-0 bg-dark">
+                                <div className="logo py-3 px-5 d-flex justify-content-center w-100 position-sticky top-0 bg-white">
                                     <Link className="d-flex justify-content-center" to={"/admin/dashboard"} alt="logo">
                                         <img className="w-25 w-50 w-75" src={LogoOffice} alt="logo"/>
                                     </Link>
