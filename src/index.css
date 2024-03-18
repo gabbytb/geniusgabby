@@ -327,7 +327,20 @@ aside.aside-container {
   width: 20%; /* Adjust width as needed */
   height: 100vh; /* 100% of the viewport height */
   overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #010080 !important;
   /* border-right: 1px solid #ccc; Optional: Add a border to visually separate aside and section */
+}
+
+.btn.btn-primary.dropdown-toggle {
+  background-color: #010080 !important;
+}
+
+#dashboard.bg-primary {
+  background-color: #010080 !important;
+}
+
+div#dashboard.bg-primary:hover {
+  background-color: #201eb7 !important;
 }
 
 section.section-container {

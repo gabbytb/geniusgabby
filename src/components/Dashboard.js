@@ -157,7 +157,7 @@ const Dashboard = () => {
                                                 <div className="card-header p-0 border-0" id="headingOne">
                                                     <div className="d-flex border-0 w-100 dropdown align-items-center justify-content-between p-0">
                                                         <h4 className="mb-0 w-100">             
-                                                            <button onClick={() => setActiveSection("home")} className="d-flex btn btn-dark border-0 rounded rounded-0 w-100 dropdown-toggle align-items-center justify-content-between px-3 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard" aria-expanded="false" aria-pressed="true" aria-controls="headingOne">
+                                                            <button onClick={() => setActiveSection("home")} className="d-flex btn btn-primary border-0 rounded rounded-0 w-100 dropdown-toggle align-items-center justify-content-between px-3 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard" aria-expanded="false" aria-pressed="true" aria-controls="headingOne">
                                                                 <Link className="text-light" alt="dashboard">
                                                                     <img className="pe-3" src={DashboardIcon} alt="icon" />
                                                                     Dashboard                                                        
@@ -165,7 +165,7 @@ const Dashboard = () => {
                                                             </button>
                                                         </h4>
                                                     </div>
-                                                    <div className="collapse bg-dark" id="dashboard" aria-labelledby="dashboard">
+                                                    <div className="collapse bg-primary" id="dashboard" aria-labelledby="dashboard">
                                                         <div className="card-body d-flex flex-column row-gap-3">
                                                             {/* <div onClick={() => setActiveSection("eCommerce")} className="d-flex justify-content-between">
                                                                 <Link className="text-light" to="#" alt="eCommerce">
