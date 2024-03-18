@@ -1,0 +1,12 @@
+let n, usersRole; // Declare variables `n` and `usersRole`
+for (n = 0; n < userRole.length; n++) { // Start a loop from 0 to the length of `userRole` array
+  if (userRole[n].role === "ROLE_ADMIN") { // Check if the role of the user at index `n` is "ROLE_ADMIN"
+    let result = userRole[n].role; // Assign the role of the user at index `n` to the variable `result`
+    if (result) { // Check if `result` is truthy
+      usersRole = "Admin"; // Assign the value "Admin" to the variable `usersRole`
+      console.log("LOGGED-IN USER: " + userProfile + ",\nSelected User Role: " + userRole[n].role + ",\nParsed Role: " + usersRole); // Log information about the logged-in user and their role
+    } else { // If `result` is falsy
+      handleLogout(); // Call the `handleLogout` function
+    }
+  }
+};
