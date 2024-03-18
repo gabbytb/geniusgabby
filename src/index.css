@@ -327,7 +327,7 @@ aside.aside-container {
   width: 20%; /* Adjust width as needed */
   height: 100vh; /* 100% of the viewport height */
   overflow-y: auto; /* Enable vertical scrolling */
-  border-right: 1px solid #ccc; /* Optional: Add a border to visually separate aside and section */
+  /* border-right: 1px solid #ccc; Optional: Add a border to visually separate aside and section */
 }
 
 section.section-container {
