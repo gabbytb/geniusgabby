@@ -1,5 +1,5 @@
 {
-  "name": "live-coding-challenge-1",
+  "name": "Gabriel's Website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,8 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^5.5.3"
   }
 }

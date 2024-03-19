@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { ProgressBar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import LogoOffice from "../assets/img/official.png";
+
 import DashboardIcon from "../assets/img/Dashboard.svg";
 // import CalendarIcon from "../assets/img/calendar-vector.svg";
 // import ProfileIcon from "../assets/img/profile.svg";
 // import TaskIcon from "../assets/img/Taskicon.svg";
 // import Pro from "../assets/img/GoPro.svg";
-import LogoOffice from "../assets/img/official.png";
 // import FormsIcon from "../assets/img/Forms.svg";
 // import TableIcon from "../assets/img/Tables.svg";
 // import PagesIcon from "../assets/img/Pages.svg";
@@ -36,7 +37,6 @@ import DellInspiron from "../assets/img/products/dell-inspiron-15.svg";
 import HpProbook from "../assets/img/products/hp-probook-450.svg";
 
 import HotelBookings from "../assets/dashboard/hotel/HotelBookings";
-
 import MonthlyHotelBooking from "../assets/dashboard/hotel/count/MonthlyHotelBooking";
 import CustomHotelBooking from "../assets/dashboard/hotel/count/CustomHotelBooking";
 
