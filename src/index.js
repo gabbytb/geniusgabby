@@ -8,8 +8,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import App from "./App";
-import LoginUser from './components/LoginUser';
-import Dashboard from "./components/Dashboard";
+import LoginUser from './pages/LoginUser';
+import Dashboard from "./pages/Dashboard";
 
 
 
