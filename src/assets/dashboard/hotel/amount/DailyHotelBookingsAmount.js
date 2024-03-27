@@ -25,8 +25,8 @@ const DailyHotelBookingAmount = () => {
     useEffect(() => {
         const payload = {
             "mode": "DAY",
-            "startDate": "2024-03-18",
-            "endDate": "2024-03-18"
+            "startDate": "2024-03-27",
+            "endDate": "2024-03-27"
         };
         const url = "https://api.travelbeta.com/api/v1/hotels/report/booking";
         axios.post(url, payload, {
